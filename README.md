@@ -49,7 +49,31 @@ Niblack achieves high Sensitivity but tends to over-segment (low Dice due to noi
 Sauvola provides cleaner segmentation with better Dice but moderate Sensitivity.  
 Proper preprocessing and parameter tuning are necessary for accurate thin vessel extraction.
 
+---
+## 📂 Project 4: Cell Nuclei Separation (Watershed With vs Without Markers)
+
+### Objective
+Separate touching cell nuclei using watershed segmentation and compare performance with and without marker control.
+
+### Methods
+- Simple Thresholding (Without Markers)
+- Marker-Controlled Watershed
+
+### Evaluation Metric
+- Dice Score
+
+### Dataset
+Data Science Bowl 2018 - https://www.kaggle.com/c/data-science-bowl-2018
+
+### Kaggle Notebook
+https://www.kaggle.com/code/naumisharanyatirth/cell-nuclei-separation-ipynb/
+
+### Key Finding
+Simple thresholding achieved higher average Dice (0.7293) because many images had well-separated nuclei.
+Marker-controlled watershed (0.6673) was useful in cases with overlapping nuclei by reducing over-segmentation.
+Performance depends on image complexity.
+
+---
 ## 🔜 Upcoming Projects
 
 - Project 2  
-- Project 4  

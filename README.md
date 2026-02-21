@@ -7,22 +7,48 @@ This repository contains a series of experimental projects exploring different m
 
 ## 📂 Project 1: Brain MRI Tumor Segmentation (Otsu vs Sauvola)
 
-**Objective:**  
+### Objective:
 Segment tumor regions in brain MRI slices using classical thresholding methods.
 
-**Methods:**
+### Methods:
 - Otsu (Global Thresholding)  
 - Sauvola (Adaptive Thresholding)
 
-**Evaluation Metrics:**
+### Evaluation Metrics:
 - Dice Score  
 - Jaccard Index  
 
-**Kaggle Notebook:**  
+### Dataset
+https://www.kaggle.com/datasets/nikhilroxtomar/brain-tumor-segmentation
+
+### Kaggle Notebook:
 https://www.kaggle.com/code/naumisharanyatirth/brain-mri-tumor-segmentation  
 
-**Key Finding:**  
+### Key Finding: 
 Both global and adaptive thresholding perform poorly for MRI tumor segmentation due to intensity overlap between tumor and normal brain tissues.
+
+---
+# 📂 Project 2: White Blood Cell Nucleus Segmentation (K-Means vs Fuzzy C-Means)
+
+## Objective
+Segment the nucleus region of White Blood Cells (WBC) using clustering-based methods.
+
+## Methods
+- K-Means (Hard Clustering)  
+- Fuzzy C-Means (Soft Clustering)
+
+## Evaluation
+- Nucleus Area Comparison  
+- Visual Boundary Comparison  
+
+### Dataset
+https://www.kaggle.com/datasets/paultimothymooney/blood-cells
+
+## Kaggle Notebook
+https://www.kaggle.com/code/naumisharanyatirth/white-blood-cell-segmentation-ipynb/edit
+
+## Key Finding
+Both methods segment the nucleus successfully. Fuzzy C-Means produces smoother boundaries due to soft clustering, while K-Means is faster but more rigid at edges.
 
 ---
 ## 📂 Project 3: Retinal Vessel Extraction (Niblack vs Sauvola)
@@ -72,8 +98,4 @@ https://www.kaggle.com/code/naumisharanyatirth/cell-nuclei-separation-ipynb/
 Simple thresholding achieved higher average Dice (0.7293) because many images had well-separated nuclei.
 Marker-controlled watershed (0.6673) was useful in cases with overlapping nuclei by reducing over-segmentation.
 Performance depends on image complexity.
-
----
-## 🔜 Upcoming Projects
-
-- Project 2  
+ 

@@ -28,26 +28,26 @@ https://www.kaggle.com/code/naumisharanyatirth/brain-mri-tumor-segmentation
 Both global and adaptive thresholding perform poorly for MRI tumor segmentation due to intensity overlap between tumor and normal brain tissues.
 
 ---
-# 📂 Project 2: White Blood Cell Nucleus Segmentation (K-Means vs Fuzzy C-Means)
+## 📂 Project 2: White Blood Cell Nucleus Segmentation (K-Means vs Fuzzy C-Means)
 
-## Objective
+### Objective
 Segment the nucleus region of White Blood Cells (WBC) using clustering-based methods.
 
-## Methods
+### Methods
 - K-Means (Hard Clustering)  
 - Fuzzy C-Means (Soft Clustering)
 
-## Evaluation
+### Evaluation
 - Nucleus Area Comparison  
 - Visual Boundary Comparison  
 
 ### Dataset
 https://www.kaggle.com/datasets/paultimothymooney/blood-cells
 
-## Kaggle Notebook
+### Kaggle Notebook
 https://www.kaggle.com/code/naumisharanyatirth/white-blood-cell-segmentation-ipynb/edit
 
-## Key Finding
+### Key Finding
 Both methods segment the nucleus successfully. Fuzzy C-Means produces smoother boundaries due to soft clustering, while K-Means is faster but more rigid at edges.
 
 ---
@@ -65,7 +65,7 @@ Extract thin retinal blood vessels from fundus images using classical adaptive t
 - Dice Score
 
 ### Dataset
-DRIVE – Digital Retinal Images for Vessel Extraction
+[DRIVE – Digital Retinal Images for Vessel Extraction](https://www.kaggle.com/datasets/andrewmvd/drive-digital-retinal-images-for-vessel-extraction)
 
 ### Kaggle Notebook
 https://www.kaggle.com/code/naumisharanyatirth/retinal-vessel-extraction-sauvola-vs-niblack
@@ -89,7 +89,7 @@ Separate touching cell nuclei using watershed segmentation and compare performan
 - Dice Score
 
 ### Dataset
-Data Science Bowl 2018 - https://www.kaggle.com/c/data-science-bowl-2018
+https://www.kaggle.com/c/data-science-bowl-2018
 
 ### Kaggle Notebook
 https://www.kaggle.com/code/naumisharanyatirth/cell-nuclei-separation-ipynb/

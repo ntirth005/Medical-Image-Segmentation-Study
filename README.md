@@ -65,7 +65,7 @@ Extract thin retinal blood vessels from fundus images using classical adaptive t
 - Dice Score
 
 ### Dataset
-[DRIVE – Digital Retinal Images for Vessel Extraction](https://www.kaggle.com/datasets/andrewmvd/drive-digital-retinal-images-for-vessel-extraction)
+https://www.kaggle.com/datasets/andrewmvd/drive-digital-retinal-images-for-vessel-extraction
 
 ### Kaggle Notebook
 https://www.kaggle.com/code/naumisharanyatirth/retinal-vessel-extraction-sauvola-vs-niblack
